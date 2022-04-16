@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <title>JAMUS</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/datatables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/Buttons-1.5.4/css/buttons.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/ColReorder-1.5.0/css/colReorder.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/FixedColumns-3.2.5/css/fixedColumns.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/FixedHeader-3.1.4/css/fixedHeader.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/KeyTable-2.5.0/css/keyTable.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/Responsive-2.2.2/css/responsive.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/RowGroup-1.1.0/css/rowGroup.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/RowReorder-1.2.4/css/rowReorder.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="assets/js/DataTables/Scroller-1.5.0/css/scroller.dataTables.css" />
+  <link rel="stylesheet" type="text/css" href="ass/js/DataTables/Select-1.2.6/css/select.dataTables.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<header>
+
+</header>
+
+<body>
+  <div class="overlay1">
+    <div class="overlayContent">
+      <a href="index.html">
+        <section class="sideNav"><img src="assets/imgs/mark.png" id="markPages" />
+          <h5 id="markTitle">JAMUS</h5>
+      </a>
+
+      <div class="sideNavWrap">
+        <div id="ID-pass">
+          <div id="text-entry">
+            <form action="/id.php">
+              <div class="user-text">USER LOGON:</div><input id="fname" name="id" placeholder="USER ID" type="text">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="sideMenu1">
+        <div>
+          <div class="wrap"> <a href="timeline.html">
+              <H3>TIMELINE</H3>
+            </a>
+            <a href="adminStatus.html">
+              <H3>STATUS</H3>
+            </a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- <-------------------------------------------------------------------------->
+
+
+
+
+      <div class="sideContent animated slideInUp">
+
+        <div class="searchTop">
+          <div class="timelinePageTitle">
+            <div>
+              <h6>TIMELINE</h6>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <table id="timeline" class="display" style="width:100%">
+          <thead>
+            <tr>
+              <th></th>
+              <th>INJECT</th>
+              <th>INJECT TIME</th>
+              <th>RECIPIENT</th>
+              <th>STATUS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td><a href="timelineDetail.html">1401M</td></a>
+              <td>12/11/2018 10:24 AM</td>
+              <td>33rd IBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>3401S</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>5401M</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>6401M</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>56th SBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/redDot.png" id="dot"></td>
+              <td>7401M</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>1402F</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>3402F</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>56th SBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>5402F</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>6402G</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/redDot.png" id="dot"></td>
+              <td>7402G</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>33rd IBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>1403F</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>56th SBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>3403M</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>5403S</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>6403G</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>7403G</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>3403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>33rd IBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/redDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>33rd IBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>CVS (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>35th SB (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/imgs/greenDot.png" id="dot"></td>
+              <td>8403H</td>
+              <td>12/11/2018 10:24 AM</td>
+              <td>33rd IBCT (D)</td>
+              <td>
+                <div class="progressBar">
+                  <div> </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="searchCol">
+          <div class="sendButtonWrap"><button type="submit" id="sendButton">SEND INJECT</button>
+          </div>
+        </div>
+        <div class="searchCol">
+          <div class="sendButtonWrap"><button type="submit" id="sendButton">EXTRA BUTTON</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery-3.2.0.min.js" type="text/javascript"></script>
+  <script src="assets/js/scripts.js" type="text/javascript"></script>
+  <!-- <script src="assets/js/fontawesome-all.js" type="text/javascript"></script> -->
+  <script src="assets/js/DataTables/datatables.js" type="text/javascript"></script>
+</body>
+
+</html>

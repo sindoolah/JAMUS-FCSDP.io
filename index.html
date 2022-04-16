@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+  <title>JAMUS</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+</head>
+
+<body>
+  <img src="assets/imgs/mark.png" class="mark" />
+  <!-- Hamburger Menu -->
+  <header>
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div id="hide">
+    <video autoplay="" class="splash-video" loop="">
+      <source src="assets/imgs/MVI.mp4" type="video/mp4" />
+    </video>
+
+    <div class="logo">
+      <h1>JAMUS</h1>
+    </div>
+  </div>
+
+  <aside class="sidePiece animated slideInRight">
+    <img id="close" src="assets/imgs/close.png" />
+    <div class="sideContent" id="designContent">
+      <h4>DESIGN CONTENT</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+        suscipit finibus blandit. Curabitur dapibus ipsum a tortor cursus, sed
+        suscipit tellus interdum. In hac habitasse platea dictumst. In tempus,
+        tellus ut feugiat sagittis, dui ex sollicitudin neque, blandit ornare
+        odio tortor eget massa. Aliquam et hendrerit urna. Sed egestas libero
+        auctor leo tincidunt ultricies. Aliquam erat volutpat. Class aptent
+        taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. Ut urna sem, tempus sit amet ullamcorper in, posuere eu
+        leo.
+      </p>
+    </div>
+    <div class="sideContent" id="executionContent">
+      <h4>EXECUTION CONTENT</h4>
+      <p>
+        Duis eget pulvinar ligula, quis dapibus nulla. In ac sodales urna.
+        Suspendisse in porttitor tellus. Ut pulvinar sed purus vitae
+        scelerisque. Vivamus auctor sed ante in posuere. Quisque vel diam
+        libero. Aenean ex neque, posuere ut iaculis eget, convallis a ante.
+        Duis sodales posuere pulvinar. Praesent eget urna in risus fermentum
+        feugiat. Aliquam auctor tempus vestibulum. Quisque at rutrum ipsum. In
+        sed placerat nibh. Integer ac condimentum ante, ut fringilla dui. Duis
+        rhoncus tortor nec risus tristique, in pellentesque diam pellentesque.
+        Donec efficitur imperdiet velit. Morbi porta arcu odio.
+      </p>
+    </div>
+    <div class="sideContent" id="trackingContent">
+      <h4>TRACKING CONTENT</h4>
+      <p>
+        In nisi quam, maximus ut ipsum vitae, bibendum sollicitudin erat.
+        Vestibulum quam tortor, facilisis sit amet pulvinar faucibus,
+        elementum nec diam. Phasellus arcu orci, ornare at ipsum at,
+        pellentesque ultricies metus. Vivamus imperdiet, turpis vel
+        pellentesque sollicitudin, odio ipsum vehicula leo, id volutpat est
+        dolor consectetur tellus. Praesent eleifend, enim at vulputate
+        consequat, elit velit commodo est, vel venenatis sapien nisi sit amet
+        ex. Phasellus ultrices et quam quis consectetur. Donec at porta nibh.
+        Duis vel mi ac nisl auctor tempus aliquet ac eros. Nunc et tempor est.
+      </p>
+    </div>
+  </aside>
+
+  <div class="overlay">
+    <div class="overlayContent">
+      <section class="sideNav animated slideInUp faster">
+        <div id="slideLogo">
+          <img id="slidingMark" src="assets/imgs/mark.png" class="mark" />
+          <h5 id="markTitle">JAMUS</h5>
+        </div>
+
+
+        <div class="sideNavWrap">
+          <div id="ID-pass">
+            <div id="text-entry">
+              <form action="/id.php">
+                <div class="user-text">USER LOGON:</div>
+                <input id="fname" name="id" placeholder="USER ID" type="text" />
+              </form>
+            </div>
+          </div>
+          <div class="password" id="text-entry">
+            <form action="/password.php">
+              <input id="fname1" name="password" placeholder="PASSWORD" type="text" />
+            </form>
+            <button id="sideButton">SUBMIT</button>
+          </div>
+
+        </div>
+        <div class="sideMenu animated slideInUp faster">
+
+          <div class="wrap"><a href="requirements.html">
+              <H3>REQUIREMENTS</H3>
+            </a>
+            <a href="messages.html">
+              <h3>MESSAGES</h3>
+            </a>
+            <a href="documents.html">
+              <h3>SOURCE DOCUMENTS</h3>
+            </a>
+            <a href="status.html">
+              <h3>STATUS</h3>
+            </a>
+            <a href="resources.html">
+              <h3>RESOURCES</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="navContainer">
+        <section class="img1 section animated slideInDown fast" id="design">
+          <img class="mark1" src="assets/imgs/design.png" />
+          <h4>DESIGN</h4>
+        </section>
+        <section class="img2 section animated slideInDown fast" id="execution">
+          <img class="mark1" src="assets/imgs/execution.png" />
+          <h4>EXECUTION</h4>
+        </section>
+        <section class="img3 section animated slideInDown fast" id="tracking">
+          <img class="mark1" src="assets/imgs/tracking.png" />
+          <h4>TRACKING</h4>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery-3.2.0.min.js" type="text/javascript"></script>
+  <script src="assets/js/scripts.js" type="text/javascript"></script>
+  <script src="assets/js/DataTables/datatables.js" type="text/javascript"></script>
+</body>

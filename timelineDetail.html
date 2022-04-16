@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <title>JAMUS</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<header>
+
+</header>
+
+<body>
+
+
+  <div class="overlay1">
+    <div class="overlayContent">
+      <a href="index.html">
+        <section class="sideNav"><img src="assets/imgs/mark.png" id="markPages" />
+          <h5 id="markTitle">JAMUS</h5>
+      </a>
+
+      <div class="sideNavWrap">
+        <div id="ID-pass">
+          <div id="text-entry">
+            <form action="/id.php">
+              <div class="user-text">USER LOGON:</div><input id="fname" name="id" placeholder="USER ID" type="text">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="sideMenu1">
+        <div>
+          <div class="wrap"><a href="timeline.html">
+              <H3>TIMELINE</H3>
+            </a>
+            <a href="adminStatus.html">
+              <H3>STATUS</H3>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <div class="sideContent animated slideInUp">
+        <div class="pageTitle">
+          <h6>TIMELINE DETAILS</h6>
+        </div>
+
+        <div class="wrap2">
+          <div class="message">
+            <div class="title titleDetail">RECEIVED</div>
+            <div class="title1">12/11/2018 10:24 AM</div>
+          </div>
+
+          <div class="message">
+            <div class="title titleDetail">SUBJECT</div>
+            <div class="title1">CVS documents for STB 35 IN DIV</div>
+          </div>
+        </div>
+
+
+
+        <div class="received"></div>
+
+        <div class="message">
+          <div class="row">
+            <div>
+              <div class="timelineTitle titleDetail">DOCUMENTS</div>
+            </div>
+            <a hrer="">
+              <div> <a hrer="">SF 1449</div><img src="assets/imgs/doc.png" class="docImg">
+            </a>
+
+            <div><a hrer="">DO 250</div><img src="assets/imgs/doc.png" class="docImg">
+            </a>
+
+            <div><a hrer="">INVOICE</div><img src="assets/imgs/doc.png" class="docImg">
+          </div></a>
+        </div>
+
+
+
+        <div class="received"></div>
+
+        <div class="message">
+          <div class="title titleDetail">STATUS</div>
+          <div class="title1">
+            <div>
+              <div class="rejectMessage">
+                <select name="files" id="files">
+                  <optgroup label="Scripts">
+                    <option value="jquery">jQuery.js</option>
+                    <option value="jqueryui">ui.jQuery.js</option>
+                  </optgroup>
+                  <optgroup label="Other files">
+                    <option value="somefile">Some unknown file</option>
+                    <option value="someotherfile">Some other file with a very long option text</option>
+                  </optgroup>
+                </select></div>
+            </div>
+            <div>
+              <form action="/id.php">
+                <div id="WhiteCellInput" style="margin-top: 1em;">
+                  <textarea id="rejectText" name="Reject" placeholder="White Cell Comments.." style="height:18vh; width:72vw"></textarea>
+
+
+                  <div class="searchCol">
+                    <div id="buttonRow" class="row">
+                      <a href="timeline.html">
+                        <div class="rejectText"><input type="submit" value="REJECT"></div>
+                      </a>
+                      <a href="messages.html"><button id="timelineButton" class="clickable">SEND</button></a><a href="messages.html">
+                        <button id="timelineButton" class="clickable">SEND</button></a><a href="messages.html">
+                        <button id="timelineButton" class="clickable">SEND</button></a>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <script src="assets/js/jquery-3.2.0.min.js" type="text/javascript"></script>
+      <script src="assets/js/scripts.js" type="text/javascript"></script>
+      <script src="assets/js/DataTables/datatables.js" type="text/javascript"></script>
+</body>
+
+</html>
